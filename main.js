@@ -93,6 +93,8 @@ function get(serviceNowTable, callback) {
     }
     return callback(callbackData, callbackError);
   });
+
+}
   
 
 /**
@@ -105,7 +107,7 @@ function get(serviceNowTable, callback) {
  *   Will be HTML text if hibernating instance.
  * @param {error} callback.error - The error property of callback.
  */
-function get(serviceNowTable, callback) {
+function post(serviceNowTable, callback) {
 
   // Initialize return arguments for callback
   let callbackData = null;
